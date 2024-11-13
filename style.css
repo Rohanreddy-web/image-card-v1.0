@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.imageCard {
+    width: 320px;
+    height: 400px;
+    margin: 40px auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgb(49, 210, 247);
+    position: relative;
+}
+
+img {
+    width: 320px;
+    height: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 18px;
+    width: 100%;
+    line-height: 50px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgb(49, 210, 247);
+    color: rgb(1, 56, 74);
+    font-size: 20px;
+}
+
+
+.controls {
+    margin: 20px auto;
+    width: fit-content;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    text-transform: capitalize;
+    transition: all 0.4s ease-in-out;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+button:nth-child(1) {
+    margin-right: 20px;
+}
